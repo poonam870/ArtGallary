@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    background-color: aqua;
+  }
+  
+  h1 {
+    font-family: cambria, cursive;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  section {
+    padding: 40px;
+  }
+  
+  h2 {
+    font-family: cambria, cursive;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .artwork {
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .artwork img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .artwork h3 {
+    font-size: 18px;
+  }
+  
+  .artwork p {
+    margin-bottom: 10px;
+  }
+  
+  .artwork:hover img {
+    transform: scale(1.1);
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  form input[type="text"],
+  form input[type="email"],
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  form textarea {
+    height: 150px;
+  }
+  
+  form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  
